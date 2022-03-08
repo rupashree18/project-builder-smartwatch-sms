@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.title
+{
+  
+    background-color: #1292F2;
+    color: white;
+    font-weight: bolder;
+    font-size: 4em;
+    
+}
+h1
+{
+    height: fit-content;
+    margin-top: 50%;
+}
+.watch
+{
+    margin-top: 30%;
+}
+section div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+.watch
+{
+    height: 55vh;
+    width: 20vw;
+    background-color: #3B3B3B;
+    
+}
+.watch,.screen
+{
+    border-radius: 20%;
+
+}
+.screen
+{
+    background-color: #000000;
+    width: inherit;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.screen .icons,.smalltime
+{
+    width: inherit;
+}
+
+.time
+{
+    font-size: 4rem;
+}
+.day
+{
+    font-size: 2rem;
+   
+}
+.times
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 5%;
+    overflow: auto;
+}
+.times p
+{
+    word-break: break-all;
+    text-align: justify;
+    overflow: auto;
+    border-bottom: dashed;
+    margin-bottom: 5%;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+        margin-bottom: 10%;
+    height: 5vh;
+}
+.displayscreen{
+
+    flex-direction: column;
+    height: 30vh;
+    width: 15vw;
+    margin-left:15%
+
+
+}
+
+
+
+
+@media screen and (max-width: 976px) {
+.title
+{
+    display: none;
+}
+    
+}
